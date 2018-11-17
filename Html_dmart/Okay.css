@@ -1,0 +1,31 @@
+
+
+h1
+{
+	font-family : "Ubuntu" ,sans-serif;
+	color : white;
+	font-size: 50px;
+	background: Black;
+}
+
+body
+{
+	background-image: url("file:///C:/Users/user38/Desktop/IMG_0037-681x681.jpg");
+}
+
+a:link
+{
+	color:RED;
+	background:white;
+	font-size:15px;
+	font-weight:bold;
+}
+a:vlink
+{
+	color:Yellow;
+}
+a:alink
+{
+	color:green;
+}
+	

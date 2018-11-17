@@ -1,0 +1,28 @@
+Given the following entity description:
+
+	SupplierId		String
+	SupplierName		String
+	SupplierAddress		String
+	SupplierFeedback	int
+	ProductsSupplied[]	Product[]
+
+	ProductId		String
+	ProductName		String
+	ProductDescription	String
+	ProductPrice		float
+
+Create an application for the following features
+
+	1. Supplier
+	2. Product
+
+	1-1. Add a suppliers
+	1-2. Change supplier details
+	1-3. Remove a supplier
+	1-4. Display supplier names in descending order of feedback
+	1-5. Display products supplied for a specific supplier
+
+	2-1. Add a product
+	2-2. Change product details
+	2-3. Remove a product
+	2-4. Sort products by price

@@ -1,0 +1,41 @@
+body
+{
+background-image: url("file:///C:/Users/user38/Desktop/city-street-cars-trees-black-and-white-720P-wallpaper-middle-size.jpg");
+font-family: 'Open Sans';
+height : 200px; 
+width : 100%;
+
+}
+
+table
+{
+background : white;
+font-family: 'Open Sans', sans-ssserif;
+font-color : black;
+font-size: 15px;
+}
+h1
+{
+	fort-size: 20px;
+}
+
+marquee
+{
+	color: white;
+}
+
+table
+{
+	border:20px solid white;
+	border-radius:15px;
+	box-shadow: 8px 8px 6px black;
+	margin: 20px;
+	padding: 30px;
+}
+
+.button
+{
+	border: 5px solid white;
+	border-radius: 5px;
+}	
+	

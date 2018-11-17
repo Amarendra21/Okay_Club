@@ -1,0 +1,43 @@
+<html>
+<head>
+<script>
+var arr = [];
+function add()
+{
+	var num = document.getElementById("tab").value;
+	arr.push(num);
+	//alert("new number added buoy");
+	var str = "";
+	for (var i = 0; i < arr.length; i++)
+	{
+		str += arr[i] + ", ";
+	}
+	document.getElementById("table").innerHTML = str;
+	document.getElementById("tab").value = "";
+
+}
+function minii()
+{
+	var minnum = arr[0];
+	for(var i = 0;i <= arr.length; i++)
+	{
+		if(arr[i] < minnum)
+		{
+			minnum = arr[i];
+		}
+	} 
+	document.getElementById("min1").innerHTML =  minnum; 
+	
+} 
+</script>
+</head>
+<body>
+<form>
+<input type="number" name="tab" id="tab"/>
+<input type="button" name="mul" value="add Array" onclick="add()"/>
+<input type="button" name="mini" value="Minimum" onclick="minii()"/>
+</form>
+<div id = "table"></div>
+<div id = "min1"></div>   
+</body>
+</html>

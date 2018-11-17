@@ -1,0 +1,67 @@
+<html>
+<body>
+<table border="2" bgcolor="pink" >
+<form>
+<tr><caption align="top"><h2>Candidate Information</h2></caption></tr>
+<tr><td>Name:<sup><font color="RED">*</sup></td>
+<td><input type="text" name="name" id="name" required autofocus></td></tr>
+
+<tr><td>Password:<sup><font color="RED">*</sup></td>
+<td><input type="password" name="pw" id="pw"required></td></tr>
+
+<tr><td>Ph.no.:<sup><font color="RED">*</sup></td>
+<td><input type="number" name="no" id="no" maxlength="10"required></td></tr>
+
+<tr><td>Gender:<sup><font color="RED">*</sup></td>
+<td><input type="radio" name="gen" id="gen">Male
+<input type="radio" name="gen" id="gen">Female</td></tr>
+
+
+<tr><td>Date of Birth:<sup><font color="RED">*</sup></td>
+<td><input type="date" name="doj" id="doj" required></td></tr>
+
+<tr><td>Email Id:<sup><font color="RED">*</sup></td>
+<td><input type="email" name="mail" id="mail" required></td></tr><br/>
+
+
+<tr><td><label for="hq" required>Highest Qualification:<sup><font color="RED">*</sup></label></td>
+<td>
+<select name="qa" id="hq">
+<option>Select highest qualification</option> 
+<option>B.E</option> 
+<option>M.E.</option> 
+<option>M.B.B.S</option>
+<option>M.D.</option> 												
+</select>
+</td></tr>
+
+<tr><td><label for="ci" required>Courses interested in:<sup><font color="RED">*</sup></label></td>
+<td>
+<input type="checkbox" name="ci" id="ci">HTML5
+<input type="checkbox" name="ci" id="ci">JAVA
+<input type="checkbox" name="ci" id="ci">CSS3
+<input type="checkbox" name="ci" id="ci">ANGULAR JS
+<input type="checkbox" name="ci" id="ci">JQuery
+</td><br/>
+</tr>
+
+
+<tr><td>Comments:(Mention external certifications if any)</td><td><textarea rows="3" cols="20"></textarea></td></tr>
+
+
+<tr><td>Upload Degree/External Certificates:<sup><font color="RED">*</sup></td>
+<td><input type="file" name="file" id="file" required></td></tr>
+
+<tr><td></td>
+<td><input type="Submit" name="inf" id="inf" value="Submit information" formaction="D:\CPP\AWP\Forms\new 1.html">
+<input type="reset" name="inf" id="inf" value="Clear"></td></tr><br/>
+
+<tr><caption align="bottom"><font color="RED">All fields marked with (*) are mandatory.</caption></tr>
+
+</form>
+</table>
+
+
+
+</body>
+</html>

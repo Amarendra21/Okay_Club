@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function message(){
+var num=document.getElementById("n1").value;
+var txt=document.getElementById("n2").value;
+for(var i=0;i<=num;i++)
+	{
+		document.write(txt + "<br/>");
+	}
+}
+</script>
+</head>
+<body>
+<form>
+<input type="number" name="num1" id="n1"/>
+<input type="text" name="num2" id="n2"/>
+<input type="button" value="click_me" onclick="message()"/>
+</form>
+</body>
+</html> 

@@ -1,0 +1,44 @@
+<html>
+<head>
+<script>
+function factorial()
+{
+	var num = parseInt(document.getElementById("num1").value);
+	var fact = 1;
+	while(num != 1)
+	{
+		fact = fact * (num--);
+	}
+	document.getElementById("check").innerHTML = fact; 
+}
+
+function prime()
+{
+	
+	var num =parseInt(document.getElementById("num1").value);
+	var i;
+	for(i = 2;i <= num/2;i++)
+	{
+		if(num%i == 0)
+		{
+			alert("Not Prime");
+			break;
+		}
+	}
+	if(i > num/2)
+	{
+		alert("prime");
+	}
+}
+</script>
+</head>
+<body>
+<form action = "check()" >
+<input type="number" id ="num1" placeholder="Enter a number" ><br/>
+<input type="radio" name= "fac" id="fact"> factorial<br/>
+<input type="radio" name= "fac" id= "prime"> prime<br/>
+<input type="submit" name="sub" id= "sub">
+<form>
+<div id ="check"></div>
+</body>
+</html>

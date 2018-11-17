@@ -1,0 +1,42 @@
+ul
+{
+	list-style-type:none;
+	background:#e8ecf2;
+	overflow:hidden;
+}
+
+a
+{
+	text-decoration: none;
+	color:black;
+	
+}	
+
+li
+{
+	float: left;
+	padding-right: 30px;
+	border: 1px solid #dadee5; 
+	
+	padding-left:10px;
+}	
+
+li a:hover {
+    background-color: white;
+	text-align: center;
+}
+
+.right
+{
+	float:right;
+}
+.menu
+{
+	border: 5px black;
+}
+
+li a
+{
+	text-align: center;
+	padding: 16px 16px;
+}	
